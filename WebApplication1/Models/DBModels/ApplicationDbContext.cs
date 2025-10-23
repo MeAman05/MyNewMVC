@@ -9,6 +9,6 @@ namespace WebApplication1.Models.DBModels
         {
         }
 
-
+        public DbSet<User> Users { get; set; }
     }
 }
